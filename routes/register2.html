@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Candidate Registration</title>
+        <link rel="stylesheet" href="../css/stylesheet.css" />
+    </head>
+    <body>
+        <center>
+        <style>
+            #address{
+                width: 24%;
+            }
+            #imgup{
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 10px;
+                width: 22%;
+            }
+            #role {
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 10px;
+                width: 22%;
+            }
+            #role select{
+                border-radius: 5px;
+                padding: 10px;
+            }
+            #voterLogin{
+				padding: 5px;
+				border-radius: 5px;
+				background-color: #ffeaa7;
+				font-size: 100%;
+				font-family: 'Bookman Old Style';
+				float: right;
+				margin: 10px;
+			}
+        </style>
+        <h1>ADMIN PANEL</h1>
+        <a href="admin.php"><button id="voterLogin">Back</button></a><br><br><br>
+        <hr>
+        <h3>Candidate Registration</h3>
+        <form action="../api/register2.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Candidate Name" /><br /><br />
+                <div id="imgup">
+                    Upload image:<input type="file" name="photo" />
+                </div>
+                <br />
+            <br /><br />
+            <button 
+                style="padding: 5px; 
+                    border-radius: 5px; 
+                    background-color: #ffeaa7; 
+                    font-size: 150%; 
+                    font-family: 'Bookman Old Style';">
+            Register Candidate</button><br /><br />
+        </form>
+        </center>
+    </body>
+</html>

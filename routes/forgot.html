@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Online voting portal </title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    <body>
+        <style>
+            #adminLogin{
+				padding: 5px;
+				border-radius: 5px;
+				background-color: #ffeaa7;
+				font-size: 100%;
+				font-family: 'Bookman Old Style';
+				float: right;
+				margin: 10px;
+			}
+        </style>
+        <center>
+        <div id="headerSection">
+            <h1>ONLINE VOTING PORTAL FOR DEFENCE PERSONNEL</h1>
+            <a href="../index.html"><button id="adminLogin">Back</button></a><br><br>
+        </div><br><br>
+        <hr>
+        <div id="bodySection">
+            <form action="../api/forgot.php" method="post">
+                <h2>Reset Password</h2>
+                <input type="text" name="voterID" placeholder="Enter voterID"><br><br>
+                <input type="text" name="email" placeholder="Enter registered email"><br><br>
+                <button id="loginButton" type="submit">Send OTP</button><br><br>
+
+            </form>
+        </div>
+        </center>
+    </body>
+</html>

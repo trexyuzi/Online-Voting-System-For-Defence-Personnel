@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>ADMIN LOGIN </title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        
+        <style>
+            #voterLogin{
+				padding: 5px;
+				border-radius: 5px;
+				background-color: #ffeaa7;
+				font-size: 100%;
+				font-family: 'Bookman Old Style';
+				float: right;
+				margin: 10px;
+			}
+        </style>
+        <center>
+        <div id="headerSection">
+            <h1>ADMIN PANEL </h1>
+            <a href="index.html"><button id="voterLogin">Voter Login</button></a><br><br>
+        </div>
+        <hr>
+        <div id="bodySection">
+            <form action="routes/admin2.php" method="post">
+                <h2>Login</h2>
+                <input type="number" name="id" placeholder="Enter ID"><br><br>
+                <input type="password" name="password" placeholder="Enter password"><br><br>
+                <button id="loginButton" type="submit">Login</button><br><br>
+
+            </form>
+        </div>
+        </center>
+    </body>
+</html>

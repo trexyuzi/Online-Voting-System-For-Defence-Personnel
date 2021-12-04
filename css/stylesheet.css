@@ -1,0 +1,25 @@
+body {
+    background-color: #b3ffff;
+}
+#headerSection {
+    padding: 10px;
+}
+#headerSection h1 {
+    font-family: 'Times New Roman';
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#dropBox {
+    padding: 10px;
+    border-radius: 5px;
+    width: 12%;
+}
+#loginButton {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffeaa7;
+    font-size: 150%;
+    font-family: 'Bookman Old Style';
+}
